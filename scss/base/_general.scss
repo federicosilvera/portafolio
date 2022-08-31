@@ -7,26 +7,17 @@
 
 header{ 
      nav{
-        
-        ul{ background-color: $color_secundario;
-            color: $color_de_letra;
-            
-            li{ 
-                display: inline-block;
-                padding: 10px;
-                color: $color_de_letra;
-                background-color: $color_principal;
-                border-radius: 5px;
-                
-                
-               a{
-                text-decoration: none;
-                
-       
-                } 
-            }
-        }
+        background-color: $color_secundario;
+   
     }
+}
+.nav-link{ color: $color_de_letra;
+    &:hover{
+        color: $color_de_letra;
+        background-color: $color_principal;
+        transform: scale(1);
+    }
+                
 }
 p{
     color: $color_de_letra;
@@ -55,9 +46,9 @@ h2{
 .icons{
     color: $color_de_letra;
     margin: 2%;
-        a{&:hover{
+        &:hover{
             color: $color_secundario;
-        }
+        
     }
 }
 
