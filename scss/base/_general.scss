@@ -55,4 +55,9 @@ h2{
 .icons{
     color: $color_de_letra;
     margin: 2%;
+        a{&:hover{
+            color: $color_secundario;
+        }
+    }
 }
+

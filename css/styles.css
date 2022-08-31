@@ -48,6 +48,9 @@ h2 {
   color: #dedede;
   margin: 2%;
 }
+.icons a:hover {
+  color: #001427;
+}
 
 .icon {
   display: inline-block;
