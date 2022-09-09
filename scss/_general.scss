@@ -40,9 +40,12 @@ footer{
 
 h1{
     color:$color_de_letra;
+    
 }
 h2{
      color:$color_de_letra;
+     
+     
  }
 
 .icons{
@@ -53,4 +56,19 @@ h2{
         
     }
 }
+
+div.titulo{
+    
+    background-image: url(../images/hero.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    
+   
+}
+
+.titulo{
+    color: $color_secundario;
+    font-weight: bold;
+}
+
 
