@@ -10,7 +10,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 8% 20% 30% 50% 20% 20% 3%;
+    grid-template-rows: 5% 25% 30% 50% 20% 20% 3%;
     grid-template-areas:
     "header header"
     "titulo titulo"
@@ -47,12 +47,13 @@ h2{ font-size: 3rem;
 .sobre{
     grid-area: sobre;
     border: solid $color_de_letra 3px;
-    border-radius: 7px;
+    border-radius: 8px;
     display: flex;
     text-align: center;
     font-size: 1.5rem;
     margin-left: 12%;
     margin-right: 12%;
+    box-shadow: 0 10px 30px #000;
     margin: 5%;
   
 }
@@ -137,6 +138,7 @@ footer{
         margin-left: 12%;
         margin-right: 12%;
         margin: 3%;
+        box-shadow: 0 10px 30px #000;
       
     }
     

@@ -13,17 +13,18 @@ header nav {
   color: #dedede;
 }
 .nav-link:hover {
-  color: #dedede;
-  background-color: #001b35;
+  color: #001b35;
+  background-color: #dedede;
   transform: scale(1);
+  border-radius: 6px;
 }
 
 p {
-  color: #dedede;
+  color: #001b35;
 }
 
 body {
-  background-color: #001b35;
+  background-color: #dedede;
 }
 
 footer {
@@ -35,15 +36,15 @@ footer {
 }
 
 h1 {
-  color: #dedede;
+  color: #001b35;
 }
 
 h2 {
-  color: #dedede;
+  color: #001b35;
 }
 
 .icons {
-  color: #dedede;
+  color: #001b35;
   margin: 2%;
 }
 .icons:hover {
@@ -51,14 +52,17 @@ h2 {
 }
 
 div.titulo {
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/hero.png);
   background-size: contain;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .titulo {
-  color: #001427;
+  color: #dedede;
   font-weight: bold;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
 }
 
 .icon {
@@ -74,7 +78,7 @@ div.titulo {
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 8% 20% 30% 50% 20% 20% 3%;
+    grid-template-rows: 5% 25% 30% 50% 20% 20% 3%;
     grid-template-areas: "header header" "titulo titulo" "sobre sobre" "habs habs" "exp exp" "cont cont" "footer footer";
   }
   header {
@@ -96,13 +100,14 @@ div.titulo {
   }
   .sobre {
     grid-area: sobre;
-    border: solid #dedede 3px;
-    border-radius: 7px;
+    border: solid #001b35 3px;
+    border-radius: 8px;
     display: flex;
     text-align: center;
     font-size: 1.5rem;
     margin-left: 12%;
     margin-right: 12%;
+    box-shadow: 0 10px 30px #000;
     margin: 5%;
   }
   .hab {
@@ -152,7 +157,7 @@ div.titulo {
   }
   .sobre {
     grid-area: sobre;
-    border: solid #dedede 3px;
+    border: solid #001b35 3px;
     border-radius: 7px;
     display: flex;
     text-align: center;
@@ -161,6 +166,7 @@ div.titulo {
     margin-left: 12%;
     margin-right: 12%;
     margin: 3%;
+    box-shadow: 0 10px 30px #000;
   }
   .hab {
     grid-area: habs;

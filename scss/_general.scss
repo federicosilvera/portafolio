@@ -11,13 +11,14 @@ header{
    
     }
 }
-.nav-link{ color: $color_de_letra;
+.nav-link{ color: $color_principal;
     
     
     &:hover{
         color: $color_de_letra;
         background-color: $color_principal;
         transform: scale(1);
+        border-radius: 6px;
     }
                 
 }
@@ -31,7 +32,7 @@ body{
 }
 
 footer{
-    color: $color_de_letra;
+    color: $color_principal;
     background-color: $color_secundario;
     display: flex;
     justify-content:center ;
@@ -59,16 +60,18 @@ h2{
 
 div.titulo{
     
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/hero.png);
     background-size: contain;
     background-attachment: fixed;
+    overflow: hidden;
     
    
 }
 
 .titulo{
-    color: $color_secundario;
+    color: $color_principal;
     font-weight: bold;
+    -webkit-backdrop-filter:blur(15px);
+    backdrop-filter: blur(15px);
 }
-
 
