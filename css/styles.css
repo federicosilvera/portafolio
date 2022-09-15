@@ -62,6 +62,14 @@ a {
   text-decoration: none;
 }
 
+.gato {
+  background-color: #dedede;
+  border-radius: 6px;
+}
+.gato:hover {
+  background-color: #001b35;
+}
+
 .icon {
   display: inline-block;
   width: 30%;
@@ -102,7 +110,6 @@ a {
     font-size: 1.5rem;
     margin-left: 12%;
     margin-right: 12%;
-    box-shadow: 0 10px 30px #000;
     margin: 5%;
   }
   .hab {
@@ -159,7 +166,6 @@ a {
     margin-left: 12%;
     margin-right: 12%;
     margin: 3%;
-    box-shadow: 0 10px 30px #000;
   }
   .hab {
     grid-area: habs;

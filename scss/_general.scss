@@ -81,3 +81,12 @@ h2{
 a{
     text-decoration: none;
 }
+
+.gato{
+    background-color: $color_principal;
+    border-radius: 6px;
+    &:hover{
+        background-color: $color_de_letra;
+
+    }
+}
