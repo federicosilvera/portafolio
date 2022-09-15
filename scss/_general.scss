@@ -6,12 +6,14 @@
 }
 
 header{ 
-     nav{
+     nav {
         background-color: $color_secundario;
+        
    
     }
 }
 .nav-link{ color: $color_principal;
+    
     
     
     &:hover{
@@ -73,5 +75,9 @@ div.titulo{
     font-weight: bold;
     -webkit-backdrop-filter:blur(15px);
     backdrop-filter: blur(15px);
+    
 }
 
+button.navbar-toggler{
+    color:white;
+}
