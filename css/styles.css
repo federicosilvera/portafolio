@@ -83,7 +83,7 @@ a {
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 5% 15% 30% 40% 20% 20% 3%;
+    grid-template-rows: 5% 15% 30% 43% 20% 20% 3%;
     grid-template-areas: "header header" "titulo titulo" "sobre sobre" "habs habs" "exp exp" "cont cont" "footer footer";
   }
   header {
@@ -116,6 +116,9 @@ a {
     grid-area: habs;
     justify-content: center;
     text-align: center;
+  }
+  .hab p {
+    margin-bottom: 4px;
   }
   .exp {
     grid-area: exp;

@@ -10,7 +10,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 5% 15% 30% 40% 20% 20% 3%;
+    grid-template-rows: 5% 15% 30% 43% 20% 20% 3%;
     grid-template-areas:
     "header header"
     "titulo titulo"
@@ -61,6 +61,9 @@ h2{ font-size: 3rem;
     
     justify-content: center;
     text-align: center;
+    p{
+        margin-bottom: 4px;
+    }
     
     
 }
