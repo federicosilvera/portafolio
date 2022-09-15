@@ -60,21 +60,24 @@ h2{
     }
 }
 
-div.titulo{
+// div.titulo{
     
-    background-image: url(../images/hero.png);
-    background-size: contain;
-    background-attachment: fixed;
-    overflow: hidden;
+//     background-image: url(../images/hero.png);
+//     background-size: contain;
+//     background-attachment: fixed;
+//     overflow: hidden;
     
    
-}
+// }
 
 .titulo{
-    color: $color_principal;
+    color: $color_de_letra;
     font-weight: bold;
     -webkit-backdrop-filter:blur(15px);
     backdrop-filter: blur(15px);
     
 }
 
+a{
+    text-decoration: none;
+}

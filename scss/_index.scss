@@ -10,7 +10,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 5% 25% 30% 50% 20% 20% 3%;
+    grid-template-rows: 5% 15% 30% 40% 20% 20% 3%;
     grid-template-areas:
     "header header"
     "titulo titulo"
@@ -46,8 +46,7 @@ h2{ font-size: 3rem;
 
 .sobre{
     grid-area: sobre;
-    border: solid $color_de_letra 3px;
-    border-radius: 8px;
+   
     display: flex;
     text-align: center;
     font-size: 1.5rem;
@@ -93,7 +92,7 @@ footer{
         height: 100%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 8% 20% 30% 50% 20% 20% 3%;
+        grid-template-rows: 8% 20% 30% 40% 15% 20% 3%;
         grid-template-areas:
         "header header"
         "titulo titulo"
@@ -129,8 +128,7 @@ footer{
     
     .sobre{
         grid-area: sobre;
-        border: solid $color_de_letra 3px;
-        border-radius: 7px;
+        
         display: flex;
         text-align: center;
         justify-content: center;

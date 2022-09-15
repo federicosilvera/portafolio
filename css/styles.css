@@ -51,18 +51,15 @@ h2 {
   color: #001427;
 }
 
-div.titulo {
-  background-image: url(../images/hero.png);
-  background-size: contain;
-  background-attachment: fixed;
-  overflow: hidden;
-}
-
 .titulo {
-  color: #dedede;
+  color: #001b35;
   font-weight: bold;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
+}
+
+a {
+  text-decoration: none;
 }
 
 .icon {
@@ -78,7 +75,7 @@ div.titulo {
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 5% 25% 30% 50% 20% 20% 3%;
+    grid-template-rows: 5% 15% 30% 40% 20% 20% 3%;
     grid-template-areas: "header header" "titulo titulo" "sobre sobre" "habs habs" "exp exp" "cont cont" "footer footer";
   }
   header {
@@ -100,8 +97,6 @@ div.titulo {
   }
   .sobre {
     grid-area: sobre;
-    border: solid #001b35 3px;
-    border-radius: 8px;
     display: flex;
     text-align: center;
     font-size: 1.5rem;
@@ -135,7 +130,7 @@ div.titulo {
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 8% 20% 30% 50% 20% 20% 3%;
+    grid-template-rows: 8% 20% 30% 40% 15% 20% 3%;
     grid-template-areas: "header header" "titulo titulo" "sobre sobre" "habs habs" "exp exp" "cont cont" "footer footer";
   }
   header {
@@ -157,8 +152,6 @@ div.titulo {
   }
   .sobre {
     grid-area: sobre;
-    border: solid #001b35 3px;
-    border-radius: 7px;
     display: flex;
     text-align: center;
     justify-content: center;
