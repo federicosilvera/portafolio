@@ -65,10 +65,6 @@ div.titulo {
   backdrop-filter: blur(15px);
 }
 
-button.navbar-toggler {
-  color: white;
-}
-
 .icon {
   display: inline-block;
   width: 30%;
@@ -192,9 +188,6 @@ button.navbar-toggler {
   }
   footer {
     grid-area: footer;
-  }
-  button.navbar-toggler {
-    color: white;
   }
 }
 
